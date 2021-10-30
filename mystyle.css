@@ -13,7 +13,7 @@ button{
   border: 1px solid #fff;
   border-radius: 20px;
   outline: none;
-  cursor: pointer;
+  cursor: url("click.png"), url("click,cur"), default;
 }
 .hero{
 width: 100%;
@@ -24,4 +24,7 @@ background-position: center;
 position: relative;
 overflow: hidden;
 cursor: url("mouse.png"), url("mouse.cur"), default;
+}
+.text{
+  cursor: url("text.png"), url("text.cur"), default;
 }
